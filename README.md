@@ -1,5 +1,5 @@
 # Cybersecurity Awareness Chatbot
-## Student: Your Full Name | Student Number: Your Number
+## Student: Roby Manhica| Student Number: ST10480499
 
 ---
 
