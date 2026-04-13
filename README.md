@@ -2,7 +2,7 @@
 ## Student: Roby Manhica| Student Number: ST10480499
 
 ![image alt](https://github.com/ST10480499/cyberSecuritychatBot/blob/master/checkbox.png?raw=true)
-
+![image alt](https://github.com/ST10480499/cyberSecuritychatBot/blob/master/workflow.png?raw=true)
 ## About This Project
 
 This is a console-based Cybersecurity Awareness Chatbot built in C# for South African citizens.
