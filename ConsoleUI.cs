@@ -1,6 +1,8 @@
 ﻿using System;
 using System.IO;
 using System.Threading;
+using System.Drawing;
+using System.Text;
 
 namespace CybersecurityChatbot.UI
 {
@@ -49,6 +51,7 @@ namespace CybersecurityChatbot.UI
         /// </summary>
         public static void DisplayAsciiImage()
         {
+            if (File.Exists("ascii_art.txt'")) return;
             try
             {
                 // Get full path to logo.jpg inside output directory
@@ -91,6 +94,7 @@ namespace CybersecurityChatbot.UI
 
                 // ASCII characters used for grayscale mapping
                 string asciiChars = "@#S%?*+;:,. ";
+                StringBuilder asciiFile = new StringBuilder();
                 Console.ForegroundColor = ConsoleColor.Cyan;
 
                 // Loop through each pixel row
@@ -112,9 +116,14 @@ namespace CybersecurityChatbot.UI
 
                         // Print ASCII character
                         Console.Write(asciiChars[index]);
+                        asciiFile.Append(asciiChars[index]);
                     }
 
                     Console.WriteLine(); // Move to next line
+                    asciiFile.AppendLine();
+
+                    File.WriteAllText("ascii_art.txt", asciiFile.ToString());
+                  
                 }
 
                 Console.ResetColor();

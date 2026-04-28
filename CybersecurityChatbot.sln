@@ -7,6 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cyberSecuritychatBot", "cyb
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
 	ProjectSection(SolutionItems) = preProject
+		bin\Debug\net8.0-windows\ascii_art.txt = bin\Debug\net8.0-windows\ascii_art.txt
 		README.md = README.md
 	EndProjectSection
 EndProject
