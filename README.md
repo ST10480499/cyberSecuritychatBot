@@ -1,7 +1,10 @@
 # Cybersecurity Awareness Chatbot
-## Student: Roby Manhica | Student Number: ST10480499
+## Student: Roby Manhica| Student Number: ST10480499
 
----
+[YouTube Link here] (https://youtu.be/DLXDz-4_wiQ)
+![image alt](https://github.com/ST10480499/cyberSecuritychatBot/blob/master/Screenshot%202026-04-28%20145638.png?raw=true)
+![image alt](https://github.com/ST10480499/cyberSecuritychatBot/blob/master/checkbox.png?raw=true)
+![image alt](https://github.com/ST10480499/cyberSecuritychatBot/blob/master/workflow.png?raw=true)
 
 ## About This Project
 

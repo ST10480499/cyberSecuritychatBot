@@ -1,4 +1,4 @@
-﻿name: Build and CI Check
+name: Build and CI Check
 
 on:
   push:
@@ -9,6 +9,10 @@ on:
 jobs:
   build:
     runs-on: windows-latest
+    
+    # Add this 'env' section right here to fix the warning
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
     - name: Checkout repository
